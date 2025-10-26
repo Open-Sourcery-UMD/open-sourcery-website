@@ -34,8 +34,7 @@ import logo from '#/open_sourcery.png'
   justify-content: space-between;
   align-items: center;
 
-  background-color: rgba(15, 80, 121, 79);
-  border: 0.0625rem solid #004f7a;
+  background-color: rgba(15, 80, 121, 0.79);
   padding: 0.5rem 2.5rem;
   border-radius: 0.5rem;
 
@@ -60,7 +59,7 @@ import logo from '#/open_sourcery.png'
 
 .navbar h3 {
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.9rem;
   margin: 0;
 }
