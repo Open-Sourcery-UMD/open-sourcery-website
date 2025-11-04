@@ -54,6 +54,8 @@ const socials = [
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
 .footer {
   position: relative;
   min-height: 20.125rem;
