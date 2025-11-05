@@ -15,6 +15,7 @@ import SectionTitle from '@/components/SectionTitle.vue'
 <style scoped>
 .page {
   display: flex;
+  align-items: center;
   flex-direction: column;
   min-height: 100vh;
 }
