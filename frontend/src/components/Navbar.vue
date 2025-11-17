@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import logo from '#/open_sourcery.png'
 
 const props = defineProps<{
