@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
 
 import logo from '#/open_sourcery.png'
 import discord from '#/Discord_Image.png'
@@ -64,32 +63,16 @@ const socials = [
 }
 
 .footer {
-  position: absolute;
-  /* Stay at the bottom of the screen */
-  bottom: 0;
-  /* Place it at the bottom */
-  left: 0;
-  /* Align it with the left edge */
   width: 100%;
-  /* Full width of the screen */
   height: 20.125rem;
-  /* Fixed height */
   display: flex;
-  /* Flexbox to position children */
   align-items: center;
-  /* Vertically center content */
-  gap: 1rem;
-  /* Space between items */
   justify-content: flex-start;
-  /* Align content to the left */
+  gap: 1rem;
   font-family: 'K2D';
-  /* Custom font */
   padding: 2rem 3rem;
-  /* Padding */
   background-color: #075180;
-  /* Footer background color */
   box-sizing: border-box;
-  /* Include padding in width calculation */
 }
 
 .socials {

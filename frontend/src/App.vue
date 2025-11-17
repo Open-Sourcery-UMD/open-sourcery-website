@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
-import SectionTitle from '@/components/SectionTitle.vue'
+import AboutUs from '@/components/AboutUs.vue'
 </script>
 
 <template>
   <div class="page">
     <Navbar></Navbar>
-    <SectionTitle title="About Us"></SectionTitle>
+    <AboutUs></AboutUs>
     <Footer></Footer>
   </div>
 </template>
@@ -15,9 +15,18 @@ import SectionTitle from '@/components/SectionTitle.vue'
 <style scoped>
 .page {
   display: flex;
-  align-items: center;
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
 }
+
+.page > *:not(:last-child) {
+  flex-shrink: 0;
+}
+
+/* Let AboutUs grow and push Footer down */
+.page > .content {
+  flex: 1;
+}
+
 </style>
