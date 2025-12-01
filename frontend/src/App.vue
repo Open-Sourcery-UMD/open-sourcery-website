@@ -2,13 +2,15 @@
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import AboutUs from '@/components/AboutUs.vue'
+import Projects from '@/components/Projects.vue'
 </script>
 
 <template>
   <div class="page">
-    <Navbar></Navbar>
-    <AboutUs></AboutUs>
-    <Footer></Footer>
+    <Navbar />
+    <AboutUs title="About Us" />
+    <Projects title="Projects" />
+    <Footer />
   </div>
 </template>
 
